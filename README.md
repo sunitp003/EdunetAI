@@ -1,28 +1,25 @@
-# Attendance Management System with Facial Recognition
+# Spam Email Classifier
 
-This project is a face-based attendance management system using Python and OpenCV. It enables users to register, capture their faces, and automatically log attendance based on face recognition.
+## Introduction
+The **Spam Email Classifier** is a machine learning project designed to automatically classify emails as either "spam" or "not spam" (ham). This project uses Natural Language Processing (NLP) techniques and machine learning algorithms to detect spam emails based on their content.
 
 ## Features
-- **Face Registration**: Allows users to register their faces with their names, year, and email.
-- **Real-time Face Detection**: Uses a webcam to detect faces in real-time.
-- **Attendance Logging**: Logs attendance automatically when a recognized face is detected.
-- **Attendance Report**: Saves attendance data to a CSV file and displays the attendance percentage.
-- **GUI Interface**: A Tkinter-based interface to manage and display attendance data.
+- **Email Classification**: Classifies emails into spam and ham categories.
+- **Text Preprocessing**: Cleans and prepares the email content for machine learning models.
+- **Model Training**: Uses algorithms like Naive Bayes, Logistic Regression, or Support Vector Machines to classify emails.
+- **Evaluation**: Measures the accuracy of the model using performance metrics such as accuracy, precision, recall, and F1-score.
 
 ## Requirements
 - Python 3.x
-- OpenCV
-- NumPy
-- Tkinter
-- Pandas
+- Libraries:
+  - `pandas`
+  - `numpy`
+  - `sklearn`
+  - `matplotlib`
+  - `seaborn`
+  - `nltk`
 
-## Installation
+You can install the required libraries by running:
 
-1. Clone the repository or download the project files.
-2. Install the required dependencies:
-   ```bash
-   pip install opencv-python numpy pandas
-Run the main.py file to start the attendance system:
-bash
-Copy code
-python main.py
+```bash
+pip install -r requirements.txt
